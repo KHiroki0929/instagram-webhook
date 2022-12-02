@@ -5,10 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "lint": "./node_modules/.bin/eslint .",
-    "predeploy": "npm run build",
-    "build": "npm run",
-    "deploy": "gh-pages -d build"
+    "lint": "./node_modules/.bin/eslint ."
   },
   "dependencies": {
     "ansi-regex": "^6.0.1",
@@ -24,7 +21,7 @@
     "node": ">=12.0"
   },
   "repository": {
-    "url": "https://github.com/fbsamples/original-coast-clothing"
+    "url": "https://github.com/KHiroki0929/instagram-webhook"
   },
   "author": "Facebook",
   "license": "ISC",
@@ -39,6 +36,5 @@
     "eslint-plugin-prettier": "^4.2.1",
     "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
-  },
-  "homepage": "https://khiroki0929.github.io/instagram-webhook/"
+  }
 }
