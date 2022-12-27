@@ -1,6 +1,6 @@
 {
   "profile": {
-    "greeting": "{{user_first_name}}さん、Original Coast Clothingへようこそ！[スタート]をクリックして、サンプルの自動メッセージングサービスをお試しください。同様のサービスを構築する場合はhttps://fb.me/get-sample-ocをご覧ください。"
+    "greeting": "{{user_first_name}}さん、aaaa"
   },
   "menu": {
     "order": "注文の更新情報",
@@ -10,9 +10,9 @@
     "start_over": "最初に戻る"
   },
   "get_started": {
-    "welcome": "{{userFirstName}}さん、ご利用いただきありがとうございます。どんなシーンにもぴったりのコーディネートが見つかるOriginal Coast Clothingへようこそ。",
-    "guidance": "いつでも下部のメニューを使って、機能をナビゲートできます。",
-    "help": "今日はどのようなサポートをご希望ですか？"
+    "welcome": "{{userFirstName}}さん、aaaaaaa",
+    "guidance": "bbbb",
+    "help": "cccc？"
   },
   "leadgen": {
     "promo": "{{userFirstName}}さん、より簡単に便利に服を選べるようになりました。",

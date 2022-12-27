@@ -11,9 +11,9 @@
     "product_launch":"Launch updates"
   },
   "get_started": {
-    "welcome": "Hi {{userFirstName}}! Welcome to Original Coast Clothing where you'll find styles for every occasion.",
-    "guidance": "At any time, use the menu below to navigate through the features",
-    "help": "What we can do to help you today?"
+    "welcome": "aaaaaa.",
+    "guidance": "bbbbb",
+    "help": "ccccc?"
   },
   "leadgen": {
     "promo": "Hi {{userFirstName}}, finding great outfits is now easier and more convenient.",

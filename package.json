@@ -21,7 +21,7 @@
     "node": ">=12.0"
   },
   "repository": {
-    "url": "https://github.com/fbsamples/original-coast-clothing"
+    "url": "https://github.com/KHiroki0929/instagram-webhook"
   },
   "author": "Facebook",
   "license": "ISC",
@@ -34,6 +34,7 @@
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   }
 }
