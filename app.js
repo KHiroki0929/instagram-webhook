@@ -47,12 +47,12 @@ app.get("/", function (_req, res) {
 
 // Add support for GET requests to our webhook
 app.get("/webhook", (req, res) => {
-  console.log("get req")
+  console.log("get req");
   console.dir(req, { depth: null });
-  console.log("------")
-  console.log("get res")
+  console.log("------");
+  console.log("get res");
   console.dir(res, { depth: null });
-  console.log("------")
+  console.log("------");
   // Parse the query params
   let mode = req.query["hub.mode"];
   let token = req.query["hub.verify_token"];
@@ -74,12 +74,12 @@ app.get("/webhook", (req, res) => {
 
 // Create the endpoint for your webhook
 app.post("/webhook", (req, res) => {
-  console.log("webhook post req")
+  console.log("webhook post req");
   console.dir(req, { depth: null });
-  console.log("------")
-  console.log("webhook post res")
+  console.log("------");
+  console.log("webhook post res");
   console.dir(res, { depth: null });
-  console.log("------")
+  console.log("------");
   let body = req.body;
 
   console.log(`\u{1F7EA} Received webhook:`);
@@ -220,13 +220,13 @@ function receiveAndReturn(user, webhookEvent, isUserRef) {
 
 // Set up your App's Messenger Profile
 app.get("/profile", (req, res) => {
-  console.log("profile 通るんか？？？")
-  console.log("profile get req")
+  console.log("profile 通るんか？？？");
+  console.log("profile get req");
   console.dir(req, { depth: null });
-  console.log("------")
-  console.log("profile get res")
+  console.log("------");
+  console.log("profile get res");
   console.dir(res, { depth: null });
-  console.log("------")
+  console.log("------");
   let token = req.query["verify_token"];
   let mode = req.query["mode"];
 
